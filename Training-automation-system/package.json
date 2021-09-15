@@ -1,0 +1,66 @@
+{
+  "name": "training-management-system",
+  "version": "0.0.1",
+  "description": "A Management system that automates some of the daily process during trainings",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "stop": "forever stop server.js",
+    "restart": "forever restart server.js",
+    "debug": "node-debug server.js",
+    "preinstall": "npm install -g forever nodemon"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "*",
+    "babel-plugin-transform-promise-to-bluebird": "^1.1.1",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015-node5": "*",
+    "babel-preset-stage-3": "*",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "config": "^1.21.0",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "ejs": "^2.6.1",
+    "express": "^4.14.0",
+    "express-session": "^1.16.1",
+    "forever": "^1.0.0",
+    "googleapis": "^39.2.0",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.2",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "multipart": "^0.1.5",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.18.11",
+    "pg": "^7.10.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "superagent": "^5.0.2",
+    "typeorm": "^0.2.0",
+    "winston": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://devanshug@bitbucket.org/ketanTechracers/training-automation-jun17.git"
+  },
+  "keywords": [
+    "training",
+    "automation"
+  ],
+  "author": "Devanshu Gupta",
+  "contributors": [
+    "Vishal Jaiswal <vjaiswal@techracers.io>"
+  ],
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ketanTechracers/training-automation-jun17#readme"
+}

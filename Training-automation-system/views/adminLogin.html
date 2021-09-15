@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.1.25/spectre.min.css" rel="stylesheet" crossorigin="anonymous">
+    </head>
+    <body>
+        <%= msg %>
+        <form action="/user/logout" method="GET" class="centered mt-10 ml-10 mr-10">            
+            <input type="submit" class="btn btn-primary" value="Logout Google"/>
+        </form>
+        <form action="/plan" method="GET" class="centered mt-10 ml-10 mr-10">            
+            <input type="submit" class="btn btn-primary" value="View Plans"/>
+        </form>
+        <form action="/user/email" method="POST" class="centered mt-10 ml-10 mr-10">            
+            <input type="submit" class="btn btn-primary" value="Send Mail"/>
+        </form>
+        <form action="/user/refreshToken" method="GET" class="centered mt-10 ml-10 mr-10">            
+            <input type="submit" class="btn btn-primary" value="Refresh Token"/>
+        </form>
+        <form action="/emp/show" method="GET" class="centered mt-10 ml-10 mr-10">            
+            <input type="submit" class="btn btn-primary" value="View all Employees"/>
+        </form>
+    </body>
+</html>
